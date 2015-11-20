@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Biblioteca</string>
+    <string name="nomeLivro">Book is name:</string>
+    <string name="exLivro">Generation PNH</string>
+    <string name="nomeAutor">Author is name:</string>
+    <string name="exAutor">Monsenhor Jonas Abib</string>
+    <string name="btnCadastrar">Register</string>
+    <string name="btnListar">List Registered Books</string>
+    <string name="registro_salvo">The Book was SUCCESSFULLY inserted!</string>
+    <string name="erro_salvar">There was an ERROR when entering the book!</string>
+
+</resources>
