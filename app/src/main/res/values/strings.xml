@@ -9,4 +9,10 @@
     <string name="registro_salvo">O Livro foi inserido com SUCESSO!</string>
     <string name="erro_salvar">Houve um ERRO ao inserir o livro!</string>
 
+    <string name="editar">Editar</string>
+    <string name="novo_livro">Novo livro</string>
+    <string name="livros_realizados">Listar livros</string>
+    <string name="remover">Remover</string>
+    <string name="opcoes">OPÇÕES</string>
+
 </resources>

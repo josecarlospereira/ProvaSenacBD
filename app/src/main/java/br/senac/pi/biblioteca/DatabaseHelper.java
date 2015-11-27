@@ -13,6 +13,17 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String BANCO_DADOS = "BiblioTeca";
     private static int VERSAO = 1;
 
+    public static class Livro{
+        public static final String TABELA = "livro";
+        public static final String _ID = "_id";
+        public static final String NOME = "nome";
+        public static final String AUTOR = "autor";
+
+        public  static final String[] COLUNAS = new String[]{
+                _ID, NOME, AUTOR
+        };
+    }
+
     public DatabaseHelper(Context context){
         super(context, BANCO_DADOS, null, VERSAO);
     }
@@ -23,8 +34,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void  onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("ALTER TABLE livro ADD COLUMN pessoa TEXT");
-    }
+    public void  onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {}
 
 }
